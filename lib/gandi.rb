@@ -18,7 +18,3 @@ class Array
     last.is_a?(::Hash) ? pop : {}
   end
 end
-
-module Gandi
-  VERSION = '1.0.0'
-end
